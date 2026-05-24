@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 배경 그라디언트 원형 -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5C5C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6B3A3A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8D5A0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C9A84C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- 배경 -->
+  <rect width="512" height="512" rx="120" fill="url(#bg)"/>
+  <!-- 잔디 언덕 -->
+  <ellipse cx="256" cy="370" rx="180" ry="60" fill="#7BA87B" opacity="0.4"/>
+  <ellipse cx="256" cy="380" rx="160" ry="50" fill="#8FC08F" opacity="0.5"/>
+  <!-- 홀 -->
+  <ellipse cx="256" cy="368" rx="40" ry="12" fill="#5A7A5A" opacity="0.7"/>
+  <!-- 깃대 -->
+  <rect x="252" y="200" width="6" height="168" rx="3" fill="#E8D5A0"/>
+  <!-- 깃발 -->
+  <path d="M258 200 L310 220 L258 240 Z" fill="url(#gold)"/>
+  <!-- 골프공 -->
+  <circle cx="195" cy="350" r="28" fill="white" opacity="0.95"/>
+  <!-- 공 딤플 -->
+  <circle cx="188" cy="343" r="3" fill="#EDE8E0" opacity="0.7"/>
+  <circle cx="200" cy="340" r="2.5" fill="#EDE8E0" opacity="0.7"/>
+  <circle cx="192" cy="353" r="2.5" fill="#EDE8E0" opacity="0.7"/>
+  <circle cx="204" cy="350" r="3" fill="#EDE8E0" opacity="0.7"/>
+  <circle cx="196" cy="362" r="2" fill="#EDE8E0" opacity="0.7"/>
+  <!-- 상단 텍스트 LVB -->
+  <text x="256" y="170" font-family="Georgia, serif" font-size="52" font-weight="400"
+    fill="white" text-anchor="middle" opacity="0.95" letter-spacing="6">LVB</text>
+  <!-- 하단 텍스트 -->
+  <text x="256" y="460" font-family="Georgia, serif" font-size="28" font-weight="300"
+    fill="rgba(255,255,255,0.75)" text-anchor="middle" letter-spacing="3">GOLF</text>
+</svg>
